@@ -7,12 +7,12 @@ using EntryRepresents.lib.Model.Request;
 
 namespace EntryRepresents.Test
 {
-    public class UnitTest1
+    public class GroupMyPatientsTest
     {
         private readonly IGroupMyPatients<int> groupMyPatients;
         PatientGroup<int> patientGroup = new PatientGroup<int>();
 
-        public UnitTest1()
+        public GroupMyPatientsTest()
         {
             groupMyPatients = new GroupMyPatients();
             patientGroup.Matrix = new int[6][];
